@@ -27,9 +27,7 @@
         
         <tr>
           <td class="docs">
-            <p>Go has various value types including strings,
-integers, floats, booleans, etc. Here are a few
-basic examples.</p>
+            <p>Terdapat beberapa tipe nilai dalam bahasa Go seperti string, integer, float, boolean, dsb. Berikut adalah beberapa contoh dasar.</p>
 
           </td>
           <td class="code empty leading">
@@ -76,7 +74,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Strings, which can be added together with <code>+</code>.</p>
+            <p>String, dimana operator <code>+</code> dapat digunakan untuk menggabungkan dua nilai.</p>
 
           </td>
           <td class="code leading">
@@ -89,7 +87,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Integers and floats.</p>
+            <p>Integer dan float.</p>
 
           </td>
           <td class="code leading">
@@ -103,7 +101,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Booleans, with boolean operators as you&rsquo;d expect.</p>
+            <p>Boolean, dengan operator boolean dasar.</p>
 
           </td>
           <td class="code">
@@ -143,7 +141,7 @@ basic examples.</p>
       
       
       <p class="next">
-        Next example: <a href="variables">Variables</a>.
+        Contoh Berikutnya: <a href="variables">Variables</a>.
       </p>
       
       <p class="footer">
