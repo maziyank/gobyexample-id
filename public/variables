@@ -27,8 +27,7 @@
         
         <tr>
           <td class="docs">
-            <p>In Go, <em>variables</em> are explicitly declared and used by
-the compiler to e.g. check type-correctness of function
+            <p>Pada bahasa Go, <em>variables</em> dideklrasikan secara ekspilit dan digunakan oleh compiler (misal untuk memeriksa kesesuaian tipe pada fungsi). 
 calls.</p>
 
           </td>
@@ -76,7 +75,7 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p><code>var</code> declares 1 or more variables.</p>
+            <p>Cara mendeklaraskan 1 atau lebih variable diawali dengan <code>var</code>.</p>
 
           </td>
           <td class="code leading">
@@ -90,7 +89,7 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p>You can declare multiple variables at once.</p>
+            <p>Kamu bisa mendaklarasikan beberapa variable dalam satu waktu.</p>
 
           </td>
           <td class="code leading">
@@ -104,7 +103,7 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p>Go will infer the type of initialized variables.</p>
+            <p>Go akan menentukan tipe variable yang sudah diinisiasi..</p>
 
           </td>
           <td class="code leading">
@@ -118,9 +117,8 @@ calls.</p>
         
         <tr>
           <td class="docs">
-            <p>Variables declared without a corresponding
-initialization are <em>zero-valued</em>. For example, the
-zero value for an <code>int</code> is <code>0</code>.</p>
+            <p>Variable yang dideklarasaikan tanpa nilai awal, maka nilai awalnya adalah <em>(zero-valued)</em>. Contohnya, 
+zero value untuk <code>int</code> adalah <code>0</code>.</p>
 
           </td>
           <td class="code leading">
@@ -134,9 +132,8 @@ zero value for an <code>int</code> is <code>0</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>The <code>:=</code> syntax is shorthand for declaring and
-initializing a variable, e.g. for
-<code>var f string = &quot;apple&quot;</code> in this case.</p>
+            <p>Pemakaian <code>:=</code> (titik dua sama dengan) adalah cara untuk melakukan inisiasi sebuah variable. Dalam hal ini contohnya:
+<code>var f string = &quot;apple&quot;</code></p>
 
           </td>
           <td class="code">
@@ -174,11 +171,11 @@ initializing a variable, e.g. for
       
       
       <p class="next">
-        Next example: <a href="constants">Constants</a>.
+        Berikutnya: <a href="constants">Constants</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://markmcgranaghan.com">Mark McGranaghan</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/variables">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://github.com/maziyank/gobyexample-id">source</a> | <a href="https://github.com/maziyank/gobyexample-i#license">license</a>
       </p>
     </div>
     <script>
