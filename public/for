@@ -27,8 +27,7 @@
         
         <tr>
           <td class="docs">
-            <p><code>for</code> is Go&rsquo;s only looping construct. Here are
-some basic types of <code>for</code> loops.</p>
+            <p>Go hanya memiliki satu konstruksi pengulangan (looping) yakni <code>for</code>. Nah, dibawah ini adalah contoh penggunaan <code>for</code>.</p>
 
           </td>
           <td class="code empty leading">
@@ -75,7 +74,7 @@ some basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p>The most basic type, with a single condition.</p>
+            <p>Bentuk yang paling dasar, menggunakan kondisi tunggal.</p>
 
           </td>
           <td class="code leading">
@@ -92,7 +91,7 @@ some basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p>A classic initial/condition/after <code>for</code> loop.</p>
+            <p>Bentuk <code>for</code> yang umum yang terdiri dari nilai awal, kondisi, sampai nilai akhir </p>
 
           </td>
           <td class="code leading">
@@ -107,9 +106,7 @@ some basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p><code>for</code> without a condition will loop repeatedly
-until you <code>break</code> out of the loop or <code>return</code> from
-the enclosing function.</p>
+            <p><code>for</code> tanpa kondisi akan terus berulang sampai kamu memanggil kode <code>break</code> atau menggunakan <code>return</code> di dalam sebuah fungsi.</p>
 
           </td>
           <td class="code leading">
@@ -125,8 +122,7 @@ the enclosing function.</p>
         
         <tr>
           <td class="docs">
-            <p>You can also <code>continue</code> to the next iteration of
-the loop.</p>
+            <p>Kamu bisa juga menggunakan <code>continue</code> untuk melanjutkan iterasi pada sebuah perulangan.</p>
 
           </td>
           <td class="code">
@@ -171,10 +167,7 @@ the loop.</p>
         
         <tr>
           <td class="docs">
-            <p>We&rsquo;ll see some other <code>for</code> forms later when we look at
-<code>range</code> statements, channels, and other data
-structures.</p>
-
+            <p>Kita akan melihat beberapa penggunaan <code>for</code> lainnya pada materi tentang range, channels, dan struktur data lainnya. 
           </td>
           <td class="code empty">
             
@@ -186,11 +179,11 @@ structures.</p>
       
       
       <p class="next">
-        Next example: <a href="if-else">If/Else</a>.
+        Berikutnya: <a href="if-else">If/Else</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://markmcgranaghan.com">Mark McGranaghan</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/for">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://github.com/maziyank/gobyexample-id">source</a> | <a href="https://github.com/maziyank/gobyexample-i#license">license</a>
       </p>
     </div>
     <script>
