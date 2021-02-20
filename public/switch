@@ -137,7 +137,7 @@
         
         <tr>
           <td class="docs">
-            <p>Kalau <code>switch</code> ini membandingkan tipe bukan nilainya.  Kamu bisa menggunakan ini untuk mendalami tipe dari sebuah nilai interface.  Di contoh ini, keluaran yang dihasilkan dari fungsi ini akan sesuai dengan tipe dari variable <code>t</code>.</p>
+            <p>Kalau <code>switch</code> ini membandingkan tipe bukan nilainya.  Kamu bisa menggunakan ini untuk mendalami tipe dari sebuah nilai interface.  Di contoh ini, keluaran yang dihasilkan dari fungsi <code>whatAmI</code> ini akan sesuai dengan tipe dari variable <code>t</code>.</p>
 
           </td>
           <td class="code">

@@ -27,8 +27,7 @@
         
         <tr>
           <td class="docs">
-            <p>In Go, an <em>array</em> is a numbered sequence of elements of a
-specific length.</p>
+            <p>Di Go, sebuah <em>array</em> adalah kumpulan atau himpunan yang berisi elemen dengan jumlah tertentu.</p>
 
           </td>
           <td class="code empty leading">
@@ -75,10 +74,7 @@ specific length.</p>
         
         <tr>
           <td class="docs">
-            <p>Here we create an array <code>a</code> that will hold exactly
-5 <code>int</code>s. The type of elements and length are both
-part of the array&rsquo;s type. By default an array is
-zero-valued, which for <code>int</code>s means <code>0</code>s.</p>
+            <p>Nah disini kita membuat sebuah array yang akan menampung 5 <code>int</code>. Tipe dari masing-masing elemen dan panjangnya adalah bagian dari Tipe sebuah array. Secara default sebuah array bernilai zero-valued, untuk <code>int</code>sendiri bernilai <code>0</code>.</p>
 
           </td>
           <td class="code leading">
@@ -92,9 +88,8 @@ zero-valued, which for <code>int</code>s means <code>0</code>s.</p>
         
         <tr>
           <td class="docs">
-            <p>We can set a value at an index using the
-<code>array[index] = value</code> syntax, and get a value with
-<code>array[index]</code>.</p>
+            <p>Kita bisa menyetel nilai anggota sebuah array dengan menggunakan indeks
+<code>array[index] = value</code>, dan untuk mendapatkan nilanya cukup menggunakan <code>array[index]</code>.</p>
 
           </td>
           <td class="code leading">
@@ -109,7 +104,7 @@ zero-valued, which for <code>int</code>s means <code>0</code>s.</p>
         
         <tr>
           <td class="docs">
-            <p>The builtin <code>len</code> returns the length of an array.</p>
+            <p>Perintah bawaan <code>len</code> mengembalikan panjang sebuah array.</p>
 
           </td>
           <td class="code leading">
@@ -122,8 +117,7 @@ zero-valued, which for <code>int</code>s means <code>0</code>s.</p>
         
         <tr>
           <td class="docs">
-            <p>Use this syntax to declare and initialize an array
-in one line.</p>
+            <p>Gunakan syntax ini untuk mendeklarasikan dan mengisiasi sebuah array dalam satu baris.</p>
 
           </td>
           <td class="code leading">
@@ -137,9 +131,7 @@ in one line.</p>
         
         <tr>
           <td class="docs">
-            <p>Array types are one-dimensional, but you can
-compose types to build multi-dimensional data
-structures.</p>
+            <p>Kamu dapat membuat array untuk struktur data multi-dimensional data juga.</p>
 
           </td>
           <td class="code">
@@ -163,8 +155,8 @@ structures.</p>
         
         <tr>
           <td class="docs">
-            <p>Note that arrays appear in the form <code>[v1 v2 v3 ...]</code>
-when printed with <code>fmt.Println</code>.</p>
+            <p>Harap dicatata bahwa array akan mucul dalam bentuk seperti ini <code>[v1 v2 v3 ...]</code>
+ketika dicetak/ditampilkan menggunakan perintah <code>fmt.Println</code>.</p>
 
           </td>
           <td class="code leading">
@@ -183,8 +175,7 @@ when printed with <code>fmt.Println</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>You&rsquo;ll see <em>slices</em> much more often than arrays in
-typical Go. We&rsquo;ll look at slices next.</p>
+            <p>Selanjutnya kamu bakal melihat <em>slices</em> digunakan cukup sering dalam Go. Kita akan membahasnya kemudian.</p>
 
           </td>
           <td class="code empty">
@@ -197,11 +188,11 @@ typical Go. We&rsquo;ll look at slices next.</p>
       
       
       <p class="next">
-        Next example: <a href="slices">Slices</a>.
+        Berikutnya: <a href="slices">Slices</a>.
       </p>
       
       <p class="footer">
-        by <a href="https://markmcgranaghan.com">Mark McGranaghan</a> | <a href="https://github.com/mmcgrana/gobyexample/blob/master/examples/arrays">source</a> | <a href="https://github.com/mmcgrana/gobyexample#license">license</a>
+        <a href="https://github.com/maziyank/gobyexample-id">source</a> | <a href="https://github.com/maziyank/gobyexample-i#license">license</a>
       </p>
     </div>
     <script>
